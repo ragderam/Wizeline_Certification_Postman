@@ -1,0 +1,20 @@
+{
+  "name": "wizeline_certification_postman",
+  "version": "1.0.0",
+  "description": "Api testing todoist",
+  "main": "index.js",
+  "scripts": {
+    "run-newman": "newman run collections/Session2_Assignment.postman_collection.json -e enviorment/Session2.postman_environment.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragderam/Wizeline_Certification_Postman.git"
+  },
+  "author": "Edgar Ramirez Cervantes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragderam/Wizeline_Certification_Postman/issues"
+  },
+  "homepage": "https://github.com/ragderam/Wizeline_Certification_Postman#readme"
+}
